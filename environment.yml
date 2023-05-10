@@ -1,0 +1,22 @@
+# conda env create --file environment.yml
+# mamba env create --file environment.yml
+name: DATACLEASING-WITH-PYTHON
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=yes
+  - fs
+  - jupyter
+  - jupyterlab
+  - markupsafe=2.0.1
+  - pathlib
+  - pip
+  - pyprojroot
+  - pip:
+    - pyhere
+  - numpy 
+  - pandas
+
+  
